@@ -1,2 +1,1 @@
-#Odudu Louisa
-## Inheritance-Css-Assignment
+# Inheritance-Css-Assignment
