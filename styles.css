@@ -1,0 +1,100 @@
+/* Get rid of default padding and margin */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    width: auto;
+    height: auto;
+    background-color: rgb(228, 172, 172);
+}
+
+.container{
+    width: 1000px;
+    height: 600px;
+    padding-top: 20px;
+    border: 1px rgb(252, 208, 208) solid;
+    margin:30px auto; 
+    background-color: rgb(252, 222, 222);    
+}
+
+#contain{
+    text-align: center;
+    padding-bottom: 10px;
+    color: rgb(184, 118, 118);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 5px rgb(252, 208, 208) solid;
+    
+}
+
+.collect{
+    padding-top: 20px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+.like{
+    border: 3px rgb(194, 121, 121) solid;
+    margin-right: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+.like h3{
+    text-align: center;
+    padding: 5px;
+}
+.dislike{
+    border: 3px rgb(194, 121, 121) solid;
+    margin-left: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+.dislike h3{
+    text-align: center;
+    padding: 5px;
+}
+
+
+.work{
+    padding: 20px; 
+    line-height: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    width: 250px;  
+    height: 350px; 
+    border: 1px black solid;
+    justify-content: center;
+    margin:10px 10px;
+    background-color :rgb(184, 118, 118);
+    list-style-position: inside;
+}
+
+.worker{
+    display: ;
+    padding: 20px; 
+    line-height: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    width: 250px;  
+    height: 350px; 
+    border: 1px black solid;
+    justify-content: center;
+    margin:10px 10px;
+    background-color :rgb(184, 118, 118);
+    list-style-position: inside;
+}
+
+/* h3{
+    
+    width: 290px; 
+    border: 2px black solid; 
+    text-align: center; 
+    margin: auto; 
+    height: 20px; 
+    background-color: rgb(209, 136, 136);"
+} */
+
+
+
